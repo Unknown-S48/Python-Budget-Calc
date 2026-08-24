@@ -12,6 +12,8 @@ print("""
 ===============================
 """)
 
+#add a profile section where if there are no text files ending in _profile ask to create a profile and then you can login into your profile and keep track of saving.
+
 # Add a choise where you can choose yearly or monthly income
 
 # Ask for Monthly Income
