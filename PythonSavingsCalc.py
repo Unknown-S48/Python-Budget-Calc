@@ -12,7 +12,12 @@ print("""
 ===============================
 """)
 
+# Add a choise where you can choose yearly or monthly income
+
 # Ask for Monthly Income
+#
+## Create a Monthly Function
+#
 while True:
     try:
         Income = float(input("Enter Monthly Income: R"))
@@ -25,7 +30,9 @@ while True:
 
     except ValueError:
         print("Invalid input! Please enter a number.")
-
+#
+## Create a Yearly Function
+#
 # Determine amount
 Savings = Income * .25
 Rainy = Income * .15
@@ -39,3 +46,20 @@ print(f"Rainy : R{Rainy:.2f}")
 print(f"Essentials : R{Essentials:.2f}")
 print(f"Cash : R{Cash:.2f}")
 print("===============================")
+
+# Show yearly saving 
+
+#Features to add
+#╔══════════════════════════════╗
+#║       BUDGET PLANNER         ║
+#╠══════════════════════════════╣
+#║  1. Enter Income             ║
+#║  2. View Budget              ║
+#║  3. Add Expense              ║
+#║  4. View Expenses            ║
+#║  5. Savings Goal             ║
+#║  6. Reports                  ║
+#║  7. Exit                     ║
+#╚══════════════════════════════╝
+#
+#Save Progress
