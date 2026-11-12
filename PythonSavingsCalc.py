@@ -3,9 +3,7 @@ print("""
 ===============================
         WELCOME!
 ===============================
-
        BUDGET PLANNER
-
    Manage your money wisely
    Save • Plan • Spend
 
